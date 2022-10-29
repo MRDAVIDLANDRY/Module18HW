@@ -1,0 +1,169 @@
+
+
+
+
+body{
+    background-color: #FFE600;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    
+}
+
+
+.texture {
+    position: fixed;
+    z-index: -1;
+    /* height: 500px;
+    width: 200px; */
+}
+    /* margin: 0; */
+#hero-image{
+     /* height: 105%; */
+    width: 105%;
+    /* height: 800px; */
+    /* height: 30vw; */
+    filter: drop-shadow(1vw -1vw 0 red);
+
+}
+footer #hero-image{
+    filter: drop-shadow(1vw -1vw 0 #00A3FF);
+}
+nav{
+    background-color: #00A3FF;
+    height: 10vw;
+    display: flex;
+    width: 115%;
+    transform: rotate(-5deg);
+    left: -8.3vw;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 3.8vw;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 5vw;
+}
+.nav-item:hover {
+    color: black;
+    cursor: pointer;
+
+}
+main{
+    display: flex;
+    margin-top: -7vw;
+    
+    
+}
+section{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+.work-links{
+
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2.6vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.about-me{
+    font-family: 'Allan', cursive;
+    font-size: 4vw;
+    padding: 2vw;
+    
+
+}
+
+.content{
+}
+
+.sub-header{
+
+    font-family: 'Allan', cursive;
+    font-size: 3.5vw;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+
+
+}
+.lightning-bolt{
+    height: 7.5vw;
+    width: 2vw;
+    transform: rotate(10deg);
+    margin: 5px;
+}
+h1{
+    font-family: "Alfa Slab One", cursive;
+    font-size: 10vw;
+    flex-direction: column;
+    color: black;
+    margin: 0;
+    text-align: right;
+    line-height: 10vw;
+    text-transform:uppercase;
+    text-shadow: .6vw .6vw 0 red;
+
+}
+footer{
+    transform: rotate(180deg);
+
+}
+footer h1{
+    text-shadow: .6vw .6vw 0 #00A3FF;
+}
+footer nav{
+    background-color: red;
+
+}
+
+header > div, footer > div {
+display: flex;
+width: 100vw;
+height: 50vw;
+
+
+}
+header > div > div, footer > div > div{
+    width: 50%;
+
+}
+.howdy{
+    position: absolute;
+    right: 4vw;
+    top: 6vw;
+    font-family: 'Allan', cursive;
+    font-size: 2vw;
+    transform: rotate(33deg);
+}
+
+.who {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 10vw;
+
+}
+.who > *{
+    transform: rotate(-20deg);
+
+
+}
+.work-links h3:hover{
+    color: white;
+    cursor: pointer;
+
+}
+@media screen and (max-width: 360px) {
+    body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+   
+    }
